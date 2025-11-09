@@ -4,6 +4,7 @@
     { "src": "src/server.ts", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "src/server.ts" }
+    { "src": "/medium", "dest": "src/server.ts" },
+    { "src": "/medium/avatar", "dest": "src/server.ts" }
   ]
 }
