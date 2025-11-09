@@ -1,7 +1,7 @@
 {
-  "name": "api",
+  "name": "api-to-fetch-medium-info",
   "version": "1.0.0",
-  "description": "",
+  "description": "This api is built over npm repo medium-info-api and lets you access all the info about a medium article ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
