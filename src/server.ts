@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import serverless from "serverless-http";
 import { getArticleInfo, getAuthorAvatar } from "medium-info-api";
 
 const app = express();
@@ -37,4 +38,4 @@ app.get("/medium/avatar", async (req, res) => {
   }
 });
 
-export default app
+export const handler = serverless(app);

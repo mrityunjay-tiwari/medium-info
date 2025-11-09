@@ -21,6 +21,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "medium-info-api": "^0.0.7"
+    "medium-info-api": "^0.0.7",
+    "serverless-http": "^4.0.0"
   }
 }
