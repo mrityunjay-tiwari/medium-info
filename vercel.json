@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/server.ts", "use": "@vercel/node" }],
+  "routes": [
+    { "src": "/medium", "dest": "api/server.ts" },
+    { "src": "/medium/avatar", "dest": "api/server.ts" }
+  ]
+}
