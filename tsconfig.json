@@ -2,7 +2,7 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     // File Layout
-    "rootDir": "./api",
+    "rootDir": "api",
     "outDir": "./dist",
 
     // Environment Settings
