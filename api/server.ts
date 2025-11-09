@@ -39,3 +39,4 @@ app.get("/medium/avatar", async (req, res) => {
 });
 
 export const handler = serverless(app);
+// app.listen(3000)
